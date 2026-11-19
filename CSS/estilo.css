@@ -1,1 +1,53 @@
 
+.sidebar a:hover {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+.sidebar a.activo {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.contenido {
+    padding: 30px;
+    min-height: calc(100vh - 115px);
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 24px;
+}
+
+.form-control,
+.form-select {
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 6px;
+}
+
+footer {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        min-height: auto;
+        border-right: none;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .contenido {
+        padding: 20px 15px;
+    }
+
+    .card-body {
+        padding: 16px;
+    }
+}
